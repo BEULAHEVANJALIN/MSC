@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+function si(){
+ price=parseInt(window.prompt("Enter price"));
+ rate=parseInt(window.prompt("Enter rate"));
+ no_years=parseInt(window.prompt("Enter Number of years"));
+
+   document.write("Simple Interest/n") 
+    document.write("Price: "+price+"/n")
+    document.write("Rate: "+rate+"%/n")
+    document.write("Years: "+no_years)
+    
+    
+alert("Simple Interest ="+(price*rate*no_years)/100);
+
+}
+
+
+</script>
+</head>
+
+<body>
+
+<input type="submit" onclick="si()" value="Calculate Simple Interest ">
+
+</body>
+
+</html>
