@@ -1,0 +1,19 @@
+REASONS:
+1.  when multiple cpu's available
+        ---> multiple caches shares memory
+        ---> it is not true that all caches holds same value for every memory location
+2.  context switching
+        1 cpu
+        multiple threads sharing a same variable
+        sum = 0
+        when t1 -> sum += 2
+            t2 -> sum += 4
+            t1 context switched after loading sum
+            t2 executes its operation
+            t1 executes its operation
+
+when multiple threads try to access a shared object and when at least one thread modifies it, then we should lock the thread
+no need when only one thread present
+so need to lock dispatch methodinlift class
+
+waitList comman variable when multiple lifts came to same floor
