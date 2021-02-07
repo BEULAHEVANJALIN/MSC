@@ -1,0 +1,17 @@
+  floor0.waitList.enqueue(new Passenger("0name1",0,2))
+  floor0.waitList.enqueue(new Passenger("0name2",1,1))
+  floor0.waitList.enqueue(new Passenger("0name3",2,0))
+  floor0.waitList.enqueue(new Passenger("0name4",1,2))
+  floor0.waitList.enqueue(new Passenger("0name5",0,2))
+
+  floor1.waitList.enqueue(new Passenger("1name1",0,2))
+  floor1.waitList.enqueue(new Passenger("1name2",1,0))
+  floor1.waitList.enqueue(new Passenger("1name3",2,1))
+  floor1.waitList.enqueue(new Passenger("1name4",1,0))
+  floor1.waitList.enqueue(new Passenger("1name5",0,1))
+
+  floor2.waitList.enqueue(new Passenger("2name1",0,2))
+  floor2.waitList.enqueue(new Passenger("2name2",1,1))
+  floor2.waitList.enqueue(new Passenger("2name3",2,0))
+  floor2.waitList.enqueue(new Passenger("2name4",1,2))
+  floor2.waitList.enqueue(new Passenger("2name5",0,2))
