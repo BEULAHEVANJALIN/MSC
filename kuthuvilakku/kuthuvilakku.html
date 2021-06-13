@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Lamp Lighting</title>
+	</head>
+
+	<script type = "text/javascript"> 
+		function changeVideo(myNewVideo) {
+			myVideo.src = myNewVideo;
+		}
+	</script>
+	<body>
+		<audio autoplay loop>
+		<source src="myAudio.mp3" type="audio/mpeg">
+		</audio>
+		<center>
+			<h2>VIRTUAL KUTHUVILAKKU LIGHTING</h2>
+		</center>
+		<video id="myVideo" width="85%" height="85%" loop autoplay src="vi.mp4"></video>
+		</br>
+		<input type = "button" value = "Chief_Guest1" onclick = "changeVideo('v1.mp4')"/>
+		<input type = "button" value = "Chief_Guest2" onclick = "changeVideo('v2.mp4')"/>
+		<input type = "button" value = "Chief_Guest3" onclick = "changeVideo('v3.mp4')"/>
+		<input type = "button" value = "Chief_Guest4" onclick = "changeVideo('v4.mp4')"/>
+		<input type = "button" value = "Chief_Guest4" onclick = "changeVideo('v5.mp4')"/>
+		<input type = "button" value = "Reset" onclick = "changeVideo('vi.mp4')"/>
+	</body>
+</html>
